@@ -1,6 +1,3 @@
-import jwt
-
-# Генерация ключей (обычно делается один раз)
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 
