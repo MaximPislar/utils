@@ -46,7 +46,7 @@ try:
         if msvcrt.kbhit():
             key = msvcrt.getch()
             if key == b' ':  # Пробел
-                if exercise_number < 19:
+                if exercise_number < len(exercises):
                     exercise_number += 1
                     print()
                     print("-" * 30)
